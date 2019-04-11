@@ -4,9 +4,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Module 5 Project</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    
-	
+      <div class="jumbotron">
+          <div class="container">
+    <h1>Script Programming Jeopardy</h1>
+         <p>including JavaScript, jQuery, and Bootstrap</p> 
+          </div>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>JavaScript</th>
+        <th>jQuery</th>
+        <th>Bootstrap</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+    <div class="container">
+        <td><button type="button" class="btn-lg btn-danger" onclick= "showQuestion ('basic', 200)">$100</button></td>
+        <td><button type="button" class="btn-lg btn-danger" onclick= "showQuestion ('basic', 200)">$100</button></td>
+        <td><button type="button" class="btn-lg btn-danger" onclick= "showQuestion ('basic', 200)">$100</button></td>
+          </div>
+      <tr>
+        <td><button type="button" class="btn-lg btn-primary" onclick= "showQuestion ('basic', 200)">$200</button></td>
+        <td><button type="button" class="btn-lg btn-primary" onclick= "showQuestion ('basic', 200)">$200</button></td>
+        <td><button type="button" class="btn-lg btn-primary" onclick= "showQuestion ('basic', 200)">$200</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="btn-lg btn-success" onclick= "showQuestion ('basic', 200)">$300</button></td>
+        <td><button type="button" class="btn-lg btn-success" onclick= "showQuestion ('basic', 200)">$300</button></td>
+        <td><button type="button" class="btn-lg btn-success" onclick= "showQuestion ('basic', 200)">$300</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
   </body>
 </html>
